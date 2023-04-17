@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		580379E229E667E100D56810 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 580379E129E667E100D56810 /* main.m */; };
+		580379EA29E667FB00D56810 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 580379E929E667FB00D56810 /* Dog.m */; };
+		580379ED29E66AFF00D56810 /* HaShiQi.m in Sources */ = {isa = PBXBuildFile; fileRef = 580379EC29E66AFF00D56810 /* HaShiQi.m */; };
+		580379F029EBEDF600D56810 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 580379EF29EBEDF600D56810 /* Person.m */; };
+		580379F329EBF24D00D56810 /* NiuBiPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 580379F229EBF24D00D56810 /* NiuBiPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		580379DE29E667E100D56810 /* 消息传递和转发学习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "消息传递和转发学习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		580379E129E667E100D56810 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		580379E829E667FB00D56810 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		580379E929E667FB00D56810 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		580379EB29E66AFF00D56810 /* HaShiQi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HaShiQi.h; sourceTree = "<group>"; };
+		580379EC29E66AFF00D56810 /* HaShiQi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaShiQi.m; sourceTree = "<group>"; };
+		580379EE29EBEDF600D56810 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		580379EF29EBEDF600D56810 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		580379F129EBF24D00D56810 /* NiuBiPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NiuBiPerson.h; sourceTree = "<group>"; };
+		580379F229EBF24D00D56810 /* NiuBiPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NiuBiPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				580379E129E667E100D56810 /* main.m */,
+				580379E829E667FB00D56810 /* Dog.h */,
+				580379E929E667FB00D56810 /* Dog.m */,
+				580379EB29E66AFF00D56810 /* HaShiQi.h */,
+				580379EC29E66AFF00D56810 /* HaShiQi.m */,
+				580379EE29EBEDF600D56810 /* Person.h */,
+				580379EF29EBEDF600D56810 /* Person.m */,
+				580379F129EBF24D00D56810 /* NiuBiPerson.h */,
+				580379F229EBF24D00D56810 /* NiuBiPerson.m */,
 			);
 			path = "消息传递和转发学习";
 			sourceTree = "<group>";
@@ -119,6 +139,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				580379F329EBF24D00D56810 /* NiuBiPerson.m in Sources */,
+				580379ED29E66AFF00D56810 /* HaShiQi.m in Sources */,
+				580379EA29E667FB00D56810 /* Dog.m in Sources */,
+				580379F029EBEDF600D56810 /* Person.m in Sources */,
 				580379E229E667E100D56810 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

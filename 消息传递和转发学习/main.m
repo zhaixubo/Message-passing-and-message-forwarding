@@ -6,11 +6,17 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Dog.h"
+#import "HaShiQi.h"
+#import "Person.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+//        Dog *dog = [[Dog alloc] init];
+//        [dog run];
+//        HaShiQi *haShiQi = [[HaShiQi alloc] init];
+//        [haShiQi run];
+        Person *person = [[Person alloc] init];
+        [person print];
     }
     return 0;
 }
